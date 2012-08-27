@@ -1,3 +1,3 @@
 #twitter-bootstrap DocPad skeleton
 
-See [README](src/README.html.md)
+See [README](src/documents/README.html.md)
