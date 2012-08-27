@@ -1,5 +1,5 @@
 --- yaml
-layout: 'default'
+layout: 'page'
 title: 'README'
 
 ---
