@@ -18,6 +18,8 @@ npm install
 node node_modules/docpad/bin/docpad install
 ```
 
+<span class="label label-warning">Note</span> that you may also need to install Pygments (and therefore pip and python) as well - this is used for the syntax highlighting of code blocks. Installation instructions are available in the readme for the [Pygments plugin](https://github.com/bevry/docpad-extras/tree/master/plugins/pygments/).
+
 Then to run the website all you need to do is:
 
 ```bash
