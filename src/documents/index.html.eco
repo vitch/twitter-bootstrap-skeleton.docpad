@@ -1,0 +1,18 @@
+--- yaml
+layout: 'default'
+title: 'Hello'
+---
+
+<h1>Welcome to the default blog</h1>
+<p>
+	All your posts should appear below in reverse date order.
+</p>
+<nav class="linklist">
+	<ul>
+		<% for document in @getCollection('posts').toJSON(): %>
+		<li><span><%= document.date.toShortDateString() %></span>
+			&raquo;
+			<a href="<%= document.url %>"><%= document.title %></a></li>
+		<% end %>
+	</ul>
+</nav>

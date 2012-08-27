@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Meta -->
+		<meta charset="utf-8" />
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+		<!-- Our site title and description -->
+		<title><%= @getPreparedTitle() %></title>
+		<meta name="description" content="<%= @getPreparedDescription() %>" />
+		<meta name="keywords" content="<%= @getPreparedKeywords() %>" />
+		<meta name="author" content="<%= @site.author or '' %>" />
+
+
+		<!-- Mobile viewport optimized: h5bp.com/viewport -->
+		<meta name="viewport" content="width=device-width" />
+
+		<!-- DocPad Meta Information -->
+		<%- @getBlock('meta').toHTML() %>
+
+
+		<!-- Shims: IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+			<script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<!-- Styles -->
+		<%- @getBlock('styles').add(['/styles/styles.css']).toHTML() %>
+	</head>
+	<body>
+		<!-- Markup -->
+		<%- @content %>
+
+		<!-- Scripts -->
+		<%- @getBlock('scripts').add(["/scripts/lib/modernizr.js","/scripts/script.js"]).toHTML() %>
+	</body>
+</html>
