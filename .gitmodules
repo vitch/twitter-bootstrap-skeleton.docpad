@@ -1,3 +1,6 @@
 [submodule "src/bootstrap"]
 	path = src/bootstrap
 	url = git://github.com/twitter/bootstrap.git
+[submodule "src/documents/styles/pygments"]
+	path = src/documents/styles/pygments
+	url = git://github.com/richleland/pygments-css.git

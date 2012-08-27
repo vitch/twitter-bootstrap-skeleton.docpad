@@ -34,7 +34,8 @@
 		"docpad-plugin-eco": "2.x",
 		"docpad-plugin-less": "2.x",
 		"docpad-plugin-markdown": "2.x",
-		"docpad-plugin-partials": "2.x"
+		"docpad-plugin-partials": "2.x",
+		"docpad-plugin-pygments": "2.x"
 	},
 	"devDependencies": {
 		"docpad-plugin-livereload": "2.x"
