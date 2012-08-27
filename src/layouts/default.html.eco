@@ -34,6 +34,6 @@
 		</div>
 
 		<!-- Scripts -->
-		<%- @getBlock('scripts').add(["/scripts/lib/modernizr.js","/scripts/script.js"]).toHTML() %>
+		<%- @getBlock('scripts').add(["/scripts/lib/modernizr-2.6.1.js","/scripts/script.js"]).toHTML() %>
 	</body>
 </html>
