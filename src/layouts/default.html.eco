@@ -28,8 +28,10 @@
 		<%- @getBlock('styles').add(['/styles/styles.css']).toHTML() %>
 	</head>
 	<body>
-		<!-- Markup -->
-		<%- @content %>
+		<div class="container">
+			<!-- Markup -->
+			<%- @content %>
+		</div>
 
 		<!-- Scripts -->
 		<%- @getBlock('scripts').add(["/scripts/lib/modernizr.js","/scripts/script.js"]).toHTML() %>
