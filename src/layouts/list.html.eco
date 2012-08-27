@@ -1,0 +1,24 @@
+--- yaml
+layout: 'default'
+title: 'Welcome'
+---
+
+<div class="row">
+	<%- @content %>
+</div>
+<div class="row">
+	<section id="articles">
+		<div class="page-header">
+			<h2>Articles</h2>
+		</div>
+		<nav>
+			<ul>
+				<% for document in @getCollection('posts').toJSON(): %>
+				<li><span><%= document.date.toShortDateString() %></span>
+					&raquo;
+					<a href="<%= document.url %>"><%= document.title %></a></li>
+				<% end %>
+			</ul>
+		</nav>
+	</section>
+</div>
