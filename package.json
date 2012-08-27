@@ -1,6 +1,6 @@
 {
-	"name": "less-and-stuff.docpad",
-	"version": "0.9.0",
+	"name": "twitter-bootstrap.docpad",
+	"version": "0.1.0",
 	"description": "Twitter Bootstrap skeleton for DocPad. Using the latest Bootstrap and compiling from less.",
 	"homepage": "https://github.com/vitch/twitter-bootstrap.docpad",
 	"keywords": [
