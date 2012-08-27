@@ -2,7 +2,13 @@
 
 This is a simple skeleton designed to get you up and running with [DocPad](https://github.com/bevry/docpad/) and [Twitter Bootstrap](http://twitter.github.com/bootstrap/) (compiled dynamically via [docpad-plugin-less](https://npmjs.org/package/docpad-plugin-less) so that you can override colours or spacings as you please).
 
-The easiest way to work with this skeleton is to clone it from github and then run the relevant commands to pull down required dependencies:
+The easiest way to work with this skeleton is to clone it from github and then run the relevant commands to pull down required dependencies. This doesn't require you to download or install DocPad directly (it gets pulled in locally by npm) but does have certain dependencies:
+
+ * Git - I'll assume you already have this or can find and install it yourself.
+ * Node and npm - I installed both using the [installer](http://nodejs.org/download/) from the node site.
+ * Pygments (and therefore pip and python) - this is used for the syntax highlighting of code blocks. Installation instructions are available in the readme for the [Pygments plugin](https://github.com/bevry/docpad-extras/tree/master/plugins/pygments/).
+
+Once you have these installed just run the following commands (starting in a sensible directory and changing `website-name` to whatever you like):
 
 ```bash
 git clone git://github.com/vitch/twitter-bootstrap-skeleton.docpad.git website-name
@@ -12,15 +18,13 @@ npm install
 node node_modules/docpad/bin/docpad install
 ```
 
-<span class="label label-warning">Note</span> that you may also need to install Pygments (and therefore pip and python) as well - this is used for the syntax highlighting of code blocks. Installation instructions are available in the readme for the [Pygments plugin](https://github.com/bevry/docpad-extras/tree/master/plugins/pygments/).
-
 Then to run the website all you need to do is:
 
 ```bash
 node node_modules/docpad/bin/docpad run
 ```
 
-You can call put `help` on the end of the previous command rather than `run` if you want to see the other DocPad commands you can run. 
+You can call put `help` on the end of the previous command rather than `run` if you want to see the other DocPad commands you can run.
 
 Once DocPad is running you can visit http://localhost:9778/ to see your brand new website. Changes made to files will be magically pushed to the browser without you even needing to reload. When you are finished you can `Ctrl+c` in your terminal window to stop DocPad from running.
 
