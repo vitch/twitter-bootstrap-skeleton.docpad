@@ -1,44 +1,45 @@
 {
-	"name": "twitter-bootstrap.docpad",
-	"version": "0.1.0",
-	"description": "Twitter Bootstrap skeleton for DocPad. Using the latest Bootstrap and compiling from less.",
-	"homepage": "https://github.com/vitch/twitter-bootstrap.docpad",
-	"keywords": [
-		"docpad-skeleton",
-		"docpad",
-		"website",
-		"bootstrap",
-		"twitter bootstrap"
-	],
-	"author": "Kelvin Luck (http://github.com/vitch)",
-	"maintainers": [
-		"Kelvin Luck (http://github.com/vitch)"
-	],
-	"contributors": [
-		"Kelvin Luck (http://github.com/vitch)"
-	],
-	"bugs": {
-		"url": "https://github.com/vitch/twitter-bootstrap.docpad/issues"
-	},
-	"repository" : {
-		"type" : "git",
-		"url" : "http://github.com/vitch/twitter-bootstrap.docpad.git"
-	},
-	"engines" : {
-		"node": "0.8.x",
-		"npm": "1.1.x"
-	},
-	"dependencies": {
-		"docpad": "6.x",
-		"docpad-plugin-coffeescript": "2.x",
-		"docpad-plugin-eco": "2.x",
-		"docpad-plugin-less": "2.x",
-		"docpad-plugin-markdown": "2.x",
-		"docpad-plugin-partials": "2.x",
-		"docpad-plugin-pygments": "2.x"
-	},
-	"devDependencies": {
-		"docpad-plugin-livereload": "2.x"
-	},
-	"main": "node_modules/docpad/bin/docpad-server"
+  "name": "twitter-bootstrap.docpad",
+  "version": "0.1.0",
+  "description": "Twitter Bootstrap skeleton for DocPad. Using the latest Bootstrap and compiling from less.",
+  "homepage": "https://github.com/vitch/twitter-bootstrap.docpad",
+  "keywords": [
+    "docpad-skeleton",
+    "docpad",
+    "website",
+    "bootstrap",
+    "twitter bootstrap"
+  ],
+  "author": "Kelvin Luck (http://github.com/vitch)",
+  "maintainers": [
+    "Kelvin Luck (http://github.com/vitch)"
+  ],
+  "contributors": [
+    "Kelvin Luck (http://github.com/vitch)"
+  ],
+  "bugs": {
+    "url": "https://github.com/vitch/twitter-bootstrap.docpad/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/vitch/twitter-bootstrap.docpad.git"
+  },
+  "engines": {
+    "node": "0.8.x",
+    "npm": "1.1.x"
+  },
+  "dependencies": {
+    "docpad": "6.x",
+    "docpad-plugin-coffeescript": "2.x",
+    "docpad-plugin-eco": "2.x",
+    "docpad-plugin-less": "2.x",
+    "docpad-plugin-markdown": "2.x",
+    "docpad-plugin-partials": "2.x",
+    "docpad-plugin-pygments": "2.x",
+    "docpad-plugin-marked": "~2.0.0"
+  },
+  "devDependencies": {
+    "docpad-plugin-livereload": "2.x"
+  },
+  "main": "node_modules/docpad/bin/docpad-server"
 }
