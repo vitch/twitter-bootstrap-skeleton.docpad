@@ -4,10 +4,6 @@ title: 'README'
 
 ---
 
-<div class="page-header">
-	<h1>twitter-bootstrap DocPad skeleton</h1>
-</div>
-
 This is a simple skeleton designed to get you up and running with [DocPad](https://github.com/bevry/docpad/) and [Twitter Bootstrap](http://twitter.github.com/bootstrap/) (compiled dynamically via [docpad-plugin-less](https://npmjs.org/package/docpad-plugin-less) so that you can override colours or spacings as you please).
 
 The easiest way to work with this skeleton is to clone it from github and then run the relevant commands to pull down required dependencies. This doesn't require you to download or install DocPad directly (it gets pulled in locally by npm) but does have certain dependencies:
