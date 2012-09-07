@@ -24,6 +24,12 @@
     "type": "git",
     "url": "http://github.com/vitch/twitter-bootstrap.docpad.git"
   },
+  "docpad": {
+    "enabledPlugins": {
+    },
+    "plugins": {
+    }
+  },
   "engines": {
     "node": "0.8.x",
     "npm": "1.1.x"
