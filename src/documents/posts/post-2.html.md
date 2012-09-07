@@ -2,6 +2,8 @@
 title: Another post on my blog
 layout: post
 tags: ['post']
+date: 2012-08-27
+
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas convallis cursus hendrerit. Etiam vel purus blandit enim consequat venenatis vel et leo. Quisque faucibus euismod mi, eget accumsan justo hendrerit nec. Sed et libero et quam viverra dignissim et a felis. In vehicula ligula quis mauris hendrerit pretium. Etiam volutpat elit nunc, sit amet pretium turpis. Sed vel ante venenatis neque cursus pretium. Mauris elementum malesuada consectetur.
