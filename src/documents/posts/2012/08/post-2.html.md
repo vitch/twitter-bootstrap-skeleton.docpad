@@ -2,7 +2,7 @@
 title: Another post on my blog
 layout: post
 tags: ['post']
-date: 2012-08-27
+date: 2012-08-28
 
 ---
 
