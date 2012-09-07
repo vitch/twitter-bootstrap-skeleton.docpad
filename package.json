@@ -37,7 +37,6 @@
     "docpad-plugin-coffeescript": "2.x",
     "docpad-plugin-eco": "2.x",
     "docpad-plugin-less": "2.x",
-    "docpad-plugin-markdown": "2.x",
     "docpad-plugin-partials": "2.x",
     "docpad-plugin-marked": "~2.0.0",
     "docpad-plugin-highlightjs": "~0.1.2"
