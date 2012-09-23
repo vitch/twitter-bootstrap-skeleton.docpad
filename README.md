@@ -6,7 +6,6 @@ The easiest way to work with this skeleton is to clone it from github and then r
 
  * Git - I'll assume you already have this or can find and install it yourself.
  * Node and npm - I installed both using the [installer](http://nodejs.org/download/) from the node site.
- * Pygments (and therefore pip and python) - this is used for the syntax highlighting of code blocks. Installation instructions are available in the readme for the [Pygments plugin](https://github.com/bevry/docpad-extras/tree/master/plugins/pygments/).
 
 Once you have these installed just run the following commands (starting in a sensible directory and changing `website-name` to whatever you like):
 
